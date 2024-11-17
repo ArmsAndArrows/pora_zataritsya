@@ -1,0 +1,45 @@
+.container-tasks {
+  max-height: 40rem;
+  max-width: 40rem;
+  overflow: hidden;
+  padding: 3rem;
+  position: relative;
+}
+
+.container-tasks::after {
+  content: "";
+  height: 3rem;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+
+.container-tasks::before,
+.container-tasks::after {
+  content: "";
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.container-tasks::before {
+  background: linear-gradient(0deg, transparent, var(--c-black-main));
+  height: 1rem;
+  top: 0;
+}
+
+.list-tasks {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  max-height: 100%;
+  max-width: 100%;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.list-tasks::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,18 @@
+model-viewer {
+  --progress-bar-color: none;
+  --progress-bar-height: 0px;
+
+  animation: fadeOpacityIn 3s ease-in-out;
+  height: 70%;
+  width: 100%;
+  z-index: 100;
+}
+
+@keyframes fadeOpacityIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

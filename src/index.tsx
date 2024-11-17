@@ -3,11 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-
 if (localStorage.getItem("Tasks") === null) {
-  localStorage.setItem("Tasks", JSON.stringify([])); 
+  localStorage.setItem("Tasks", JSON.stringify([]));
 }
-
 
 const rootElement = document.getElementById("root");
 if (rootElement) {

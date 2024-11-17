@@ -1,8 +1,11 @@
 import "./CactusModel.css";
 
+
+
 const CactusModel: React.FC = () => {
   return (
     <model-viewer
+      src="/models/lamp.glb"
       auto-rotate
       auto-rotate-delay="0"
       camera-controls
@@ -16,7 +19,6 @@ const CactusModel: React.FC = () => {
       rotation-per-second="-45deg"
       shadow-intensity="1.07"
       shadow-softness="0.8"
-      src="/models/lamp.glb"
       tone-mapping="neutral"
     ></model-viewer>
   );

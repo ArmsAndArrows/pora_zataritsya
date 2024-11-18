@@ -1,6 +1,7 @@
 {
   "short_name": "pora_zataritsya",
   "name": "Create React App Sample",
+  "display": "standalone",  
   "icons": [
     {
       "src": "favicon.svg",

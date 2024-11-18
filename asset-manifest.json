@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pora_zataritsya)/static/css/main.d264b44e.css",
+    "main.js": "/pora_zataritsya)/static/js/main.4744626e.js",
+    "static/media/RobotoSlab-Bold.ttf": "/pora_zataritsya)/static/media/RobotoSlab-Bold.37f7c30bbfc1ebae4939.ttf",
+    "static/media/RobotoSlab-Light.ttf": "/pora_zataritsya)/static/media/RobotoSlab-Light.acad4001c48971a95eb3.ttf",
+    "static/media/RobotoSlab-Regular.ttf": "/pora_zataritsya)/static/media/RobotoSlab-Regular.51fdb083efba0dd8a5ea.ttf",
+    "index.html": "/pora_zataritsya)/index.html",
+    "main.d264b44e.css.map": "/pora_zataritsya)/static/css/main.d264b44e.css.map",
+    "main.4744626e.js.map": "/pora_zataritsya)/static/js/main.4744626e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d264b44e.css",
+    "static/js/main.4744626e.js"
+  ]
+}
